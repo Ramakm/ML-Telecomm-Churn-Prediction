@@ -1,12 +1,12 @@
 # ML-Telecomm-Churn-Prediction-
 To reduce customer churn, telecom companies need to predict which customers are at high risk of churn.
 
-# Business Problem:
+# **Business Problem:**
 In the telecom industry, customers are able to choose from multiple service providers and actively switch from one operator to another. In this highly competitive market, the telecommunications industry experiences an average of 15-25% annual churn rate. Given the fact that it costs 5-10 times more to acquire a new customer than to retain an existing one, customer retention has now become even more important than customer acquisition.
 For many incumbent operators, retaining high profitable customers is the number one business goal. To reduce customer churn, telecom companies need to predict which customers are at high risk of churn. 
 In this project, you will analyse customer-level data of a leading telecom firm, build predictive models to identify customers at high risk of churn and identify the main indicators of churn.
 
-# Data Dictionary:
+# **Data Dictionary:**
 
 The data dictionary contains meanings of abbreviations. Some frequent ones are loc (local), IC (incoming), OG (outgoing), T2T (telecom operator to telecom operator), T2O (telecom operator to another operator), RECH (recharge) etc.
 The attributes containing 6, 7, 8, 9 as suffixes imply that those correspond to the months 6, 7, 8, 9 respectively.
@@ -51,3 +51,13 @@ The attributes containing 6, 7, 8, 9 as suffixes imply that those correspond to 
 |FB_USER	Service scheme to avail services of Facebook and similar social networking sites
 |VBC    	Volume based cost - when no specific scheme is not purchased and paid as per usage -->
 ![image](https://user-images.githubusercontent.com/8182816/232224112-f83f7593-8ff2-4487-8b36-e310ebe25313.png)
+
+# **Requirements:**
+
+matplotlib==3.4.3
+numpy==1.20.3
+pandas==1.3.4
+seaborn==0.11.2
+session_info==1.0.0
+sklearn==0.24.2
+xgboost==1.7.3
