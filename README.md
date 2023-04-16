@@ -60,6 +60,24 @@ The attributes containing 6, 7, 8, 9 as suffixes imply that those correspond to 
 |VBC    	Volume based cost - when no specific scheme is not purchased and paid as per usage -->
 ![image](https://user-images.githubusercontent.com/8182816/232224112-f83f7593-8ff2-4487-8b36-e310ebe25313.png)
 
+# **Data Preparation:**
+
+1. **Derive new features-** This is one of the most important parts of data preparation since good features are often the differentiators between good and bad models. Use your business understanding to derive features you think could be important indicators of churn.
+
+2. **Filter high-value customers-** As mentioned above, you need to predict churn only for the high-value customers. Define high-value customers as follows: Those who have recharged with an amount more than or equal to X, where X is the 70th percentile of the average recharge amount in the first two months (the good phase).
+
+3. **Tag churners and remove attributes of the churn phase-** Now tag the churned customers (churn=1, else 0) based on the fourth month as follows: Those who have not made any calls (either incoming or outgoing) AND have not used mobile internet even once in the churn phase. The attributes you need to use to tag churners are:
+
+    * total_ic_mou_9
+
+    * total_og_mou_9
+
+    * vol_2g_mb_9
+
+    * vol_3g_mb_9<br>
+ 
+ After tagging churners, remove all the attributes corresponding to the churn phase (all attributes having ‘ _9’, etc. in their names).
+ 
 # **Requirements:**
 
 matplotlib==3.4.3<br>
