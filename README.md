@@ -1,4 +1,6 @@
 # ML-Telecomm-Churn-Prediction-
+![image](https://user-images.githubusercontent.com/8182816/232266830-31d6aea2-9b57-4d11-acb3-5f69fca94deb.png)
+
 To reduce customer churn, telecom companies need to predict which customers are at high risk of churn.
 
 # **Business Problem:**
@@ -60,10 +62,10 @@ The attributes containing 6, 7, 8, 9 as suffixes imply that those correspond to 
 
 # **Requirements:**
 
-matplotlib==3.4.3
-numpy==1.20.3
-pandas==1.3.4
-seaborn==0.11.2
-session_info==1.0.0
-sklearn==0.24.2
+matplotlib==3.4.3<br>
+numpy==1.20.3<br>
+pandas==1.3.4<br>
+seaborn==0.11.2<br>
+session_info==1.0.0<br>
+sklearn==0.24.2<br>
 xgboost==1.7.3
