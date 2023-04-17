@@ -20,44 +20,46 @@ The data dictionary contains meanings of abbreviations. Some frequent ones are l
 The attributes containing 6, 7, 8, 9 as suffixes imply that those correspond to the months 6, 7, 8, 9 respectively.
 
 <!-- |Acronyms |   	Descriptions|
+----------------------------
 |MOBILE_NUMBER|	Customer phone number|
+-                 -                    -
 |CIRCLE_ID	|Telecom circle area to which the customer belongs to|
 |LOC	|Local calls - within same telecom circle|
 |STD	|STD calls - outside the calling circle|
 |IC	|Incoming calls|
 |OG|Outgoing calls|
-|T2T	|Operator T to T, i.e. within same operator (mobile to mobile)
-|T2M  |  	Operator T to other operator mobile
-|T2O |   	Operator T to other operator fixed line
-|T2F |   	Operator T to fixed lines of T
-|T2C   | 	Operator T to it’s own call center
-|ARPU   | 	Average revenue per user
-|MOU   | 	Minutes of usage - voice calls
-|AON  | 	Age on network - number of days the customer is using the operator T network
-|ONNET  | 	All kind of calls within the same operator network
-|OFFNET   | 	All kind of calls outside the operator T network
-|ROAM	|Indicates that customer is in roaming zone during the call
-|SPL  | 	Special calls
-|ISD    |ISD calls
-|RECH  |  	Recharge
-|NUM   | 	Number
-|AMT  |  	Amount in local currency
-|MAX    	|Maximum
-|DATA |   	Mobile internet
-|3G  |  	3G network
-|AV  |	Average
-|VOL |   	Mobile internet usage volume (in MB)
-|2G  |  	2G network
-|PCK   | 	Prepaid service schemes called - PACKS
-|NIGHT |   	Scheme to use during specific night hours only
-|MONTHLY |   	Service schemes with validity equivalent to a month
-|SACHET  | 	Service schemes with validity smaller than a month
-|*.6    	|KPI for the month of June
-|*.7    |	KPI for the month of July
-|*.8    |	KPI for the month of August
-|*.9   |	KPI for the month of September
-|FB_USER	Service scheme to avail services of Facebook and similar social networking sites
-|VBC    	Volume based cost - when no specific scheme is not purchased and paid as per usage -->
+|T2T	|Operator T to T, i.e. within same operator (mobile to mobile)|
+|T2M  |  	Operator T to other operator mobile|
+|T2O |   	Operator T to other operator fixed line|
+|T2F |   	Operator T to fixed lines of T|
+|T2C   | 	Operator T to it’s own call center|
+|ARPU   | 	Average revenue per user|
+|MOU   | 	Minutes of usage - voice calls|
+|AON  | 	Age on network - number of days the customer is using the operator T network|
+|ONNET  | 	All kind of calls within the same operator network|
+|OFFNET   | 	All kind of calls outside the operator T network|
+|ROAM	|Indicates that customer is in roaming zone during the call|
+|SPL  | 	Special calls|
+|ISD    |ISD calls|
+|RECH  |  	Recharge|
+|NUM   | 	Number|
+|AMT  |  	Amount in local currency|
+|MAX    	|Maximum|
+|DATA |   	Mobile internet|
+|3G  |  	3G network|
+|AV  |	Average|
+|VOL |   	Mobile internet usage volume (in MB)|
+|2G  |  	2G network|
+|PCK   | 	Prepaid service schemes called - PACKS|
+|NIGHT |   	Scheme to use during specific night hours only|
+|MONTHLY |   	Service schemes with validity equivalent to a month|
+|SACHET  | 	Service schemes with validity smaller than a month|
+|*.6    	|KPI for the month of June|
+|*.7    |	KPI for the month of July|
+|*.8    |	KPI for the month of August|
+|*.9   |	KPI for the month of September|
+|FB_USER	|Service scheme to avail services of Facebook and similar social networking sites|
+|VBC    |	Volume based cost - when no specific scheme is not purchased and paid as per usage| -->
 ![image](https://user-images.githubusercontent.com/8182816/232224112-f83f7593-8ff2-4487-8b36-e310ebe25313.png)
 
 # **Data Preparation:**
@@ -77,6 +79,20 @@ The attributes containing 6, 7, 8, 9 as suffixes imply that those correspond to 
     * vol_3g_mb_9<br>
  
  After tagging churners, remove all the attributes corresponding to the churn phase (all attributes having ‘ _9’, etc. in their names).
+ 
+# **Steps:**
+ 
+    * Data Reading & Understanding
+    * Data Cleaning
+    * EDA
+    * Train and Split
+    * PCA 
+    * Data Modelling
+
+# **EDA:**
+![image](https://user-images.githubusercontent.com/8182816/232468435-b5405bdf-3686-4e98-a08c-6c10bdc15a61.png)
+![image](https://user-images.githubusercontent.com/8182816/232467793-cde3234a-c053-41e1-86fa-c81e93a054dd.png)
+![image](https://user-images.githubusercontent.com/8182816/232468146-b0657c41-4fbc-4a96-9b88-9f97df4dcbe1.png)
  
 # **Requirements:**
 
