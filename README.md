@@ -93,6 +93,26 @@ The attributes containing 6, 7, 8, 9 as suffixes imply that those correspond to 
 ![image](https://user-images.githubusercontent.com/8182816/232468435-b5405bdf-3686-4e98-a08c-6c10bdc15a61.png)
 ![image](https://user-images.githubusercontent.com/8182816/232467793-cde3234a-c053-41e1-86fa-c81e93a054dd.png)
 ![image](https://user-images.githubusercontent.com/8182816/232468146-b0657c41-4fbc-4a96-9b88-9f97df4dcbe1.png)
+
+# **Models Used:**<br>
+   * Logistic Regression
+   * SVM
+   * Random Forest
+   * Decision Tree
+   
+# **Conclusion:**<br>
+
+   * The telecom industry experiences an annual churn rate of 15-25%, making customer retention more important than customer acquisition due to the high cost of acquiring new customers.
+   * To manage High Value Customer Churn, we predicted customers likely to churn and identified factors influencing high churn.
+
+   * A considerable drop in recharge, call usage, and data usage in the 8th month (Action Phase) was observed during exploratory analysis.
+Important predictors affecting churn include 'arpu_7', 'max_rech_amt_6', 'std_og_t2m_mou_8', 'loc_og_t2m_mou_8', 'max_rech_data_8', 'last_day_rch_amt_8', 'total_data_rech_8', 'total_amt_8', 'roam_og_mou_8', 'loc_ic_t2m_mou_8'.
+   * The average revenue per user in the 7th month plays a vital role in predicting churn.
+   * Local and STD minutes of usage (incoming and outgoing) are the most influential features on customer churn.
+   * The last day of recharge amount in the action phase and the maximum recharge for calling data in the 6th and 8th months should be focused on to prevent churn.
+   * The last day of recharge, total recharge for data done, and the total amount spent on calls and data in the 8th month also play a crucial role in indicating churn.
+   * Outgoing roaming calls made by clients in the 8th month also play a key role in predicting churn.
+   * Strategies to prevent churn include improving network and customer satisfaction, providing customized plans, routine feedback calls, introducing attractive offers, and promotional offers
  
 # **Requirements:**
 
