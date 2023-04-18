@@ -3,6 +3,10 @@
 
 To reduce customer churn, telecom companies need to predict which customers are at high risk of churn.
 
+For downloading the dataset, Please go this link as the size is more and i can't upload it there.
+
+[Dataset CSV Link](https://www.kaggle.com/datasets/ramakrushnamohapatra/telecomm-churn-data)
+
 # **Business Problem:**
 In the telecom industry, customers are able to choose from multiple service providers and actively switch from one operator to another. In this highly competitive market, the telecommunications industry experiences an average of 15-25% annual churn rate. Given the fact that it costs 5-10 times more to acquire a new customer than to retain an existing one, customer retention has now become even more important than customer acquisition.
 For many incumbent operators, retaining high profitable customers is the number one business goal. To reduce customer churn, telecom companies need to predict which customers are at high risk of churn. 
@@ -122,4 +126,3 @@ pandas==1.3.4<br>
 seaborn==0.11.2<br>
 session_info==1.0.0<br>
 sklearn==0.24.2<br>
-xgboost==1.7.3
